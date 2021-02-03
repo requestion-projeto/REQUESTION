@@ -13,14 +13,14 @@
 
 		<meta charset = "utf-8">
 
-		<link rel = "stylesheet" type = "text/css" href = "./css/cadastro.css">
+		<link rel = "stylesheet" type = "text/css" href = "Cadastro.css">
 	
     </head>
     
 <body>
 
 	<!-- Logo Cadastro -->
-    <header class="Fields_Registration">
+		<header class="Fields_Registration">
 
             <nav id = "Fields_Reg" >
 				
@@ -29,127 +29,139 @@
 					<img id = "Fields_reg_logo" src="https://github.com/katharinefernandes/imagens_requestion/blob/main/Logo_Colorido.png?raw=true" title = "Cadastro">
 				
 				</a>
+
+				<!-- Botão Retornar -->
+					<header class="Return">
+
+            		<nav id = "Button_Return" >
+				
+						<a href = "#Return">
+					
+							<img id = "Button_Return-img" src="https://github.com/requestion-projeto/REQUESTION-PLATAFORMA/blob/main/Front-end_imagens/arrow_return.png?raw=true" title = "Retornar">
+				
+						</a>
 				
 				<!-- Retângulo Cadastro -->
-				<section id = "Rectangle">
+					<section id = "Rectangle">
 
 				<!-- Campos Cadastro Texto-->
 					<div  id = "Fields_Registration_Text" >
 
-						<p id = "Field_Name_Text" >
-								Nome:
-						</p>
-					
-						<p id = "Field_Lastname_Text" >
-								Sobrenome:
-						</p>
-					
-						<p id = "Field_Email_Text" >
-								E-mail:
-						</p>
-			
-						<p id = "Field_Password_Text" >
-								Senha:
-						</p>
+							<p id = "Field_Name_Text" >
+									Nome:
+							</p>
+						
+							<p id = "Field_Lastname_Text" >
+									Sobrenome:
+							</p>
+						
+							<p id = "Field_Email_Text" >
+									E-mail:
+							</p>
+				
+							<p id = "Field_Password_Text" >
+									Senha:
+							</p>
 
-						<p id = "Field_Confirm_Text" >
-								Confirmar senha:
-						</p>
+							<p id = "Field_Confirm_Text" >
+									Confirmar senha:
+							</p>
 
-						<p id = "Field_Intitution_Text" >
-								Instituição de Ensino:
-						</p>
+							<p id = "Field_Intitution_Text" >
+									Instituição de Ensino:
+							</p>
 
-						<p id = "Field_Verificationcode_Text" >
-								Código de Verficação:
-						</p>
+							<p id = "Field_Verificationcode_Text" >
+									Código de Verficação:
+							</p>
 
-						<p id = "Field_Degree_Text" >
-								Grau:
-						</p>
-				</div>
+							<p id = "Field_Degree_Text" >
+									Grau:
+							</p>
+					</div>
 
 						<!-- Campos Cadastro -->
-						<div id="Name">
+							<div id="Name">
 
- 						 	<input type="text" id="Field_Name" placeholder="Insira seu nome"/>
+ 						 		<input type="text" id="Field_Name" placeholder="Insira seu nome"/>
 
-						</div>
+							</div>
 
-						<div id="LastName">
+							<div id="LastName">
 
- 						 	<input type="text" id="Field_Lastname" placeholder="Insira seu sobrenome"/>
+ 						 		<input type="text" id="Field_Lastname" placeholder="Insira seu sobrenome"/>
 
-						</div>
+							</div>
 						
-						<div id="Email">
+							<div id="Email">
 
- 						 	<input type="text" id="Field_Email" placeholder="Insira seu email"/>
+ 						 		<input type="text" id="Field_Email" placeholder="Insira seu email"/>
 
-						</div>
+							</div>
 						
-						<div id="Password">
+							<div id="Password">
 
- 						 	<input type="password" id="Field_Password" placeholder="Insira sua senha"/>
+ 						 		<input type="password" id="Field_Password" placeholder="Insira sua senha"/>
 
-						</div>
+							</div>
 						
-						<div id="Confirm">
+							<div id="Confirm">
 
- 						 	<input type="password" id="Field_Confirm" placeholder="Insira novamente sua senha"/>
+	 						 	<input type="password" id="Field_Confirm" placeholder="Insira novamente sua senha"/>
 
-						</div>
+							</div>
 
-						<div id="Verificationcode">
+							<div id="Verificationcode">
 
- 						 	<input type="text" id="Field_Verificationcode" placeholder="Insira seu código de verificação"/>
+	 						 	<input type="text" id="Field_Verificationcode" placeholder="Insira seu código de verificação"/> 
 
-						</div>
+							</div> 
 
 						<!-- DropDown Instituição -->
-
 							<label for="Field_Institution"></label>
 
-							<select id="Field_Institution_DropDown" name="Institution">
+								<select id="Field_Institution_DropDown" name="Institution">
 
-								<option value="teste1">Selecione a Instituição em que leciona</option>
+									<option value="teste1">Selecione a Instituição em que leciona</option>
 
-								<option value="teste2">IFSP-Instituto Federal São Paulo, Câmpus São Paulo </option>
+									<option value="teste2">IFSP-Instituto Federal São Paulo, Câmpus São Paulo </option>
 
-								<option value="teste3">IFSP-Instituto Federal São Paulo, Câmpus Campinas</option>
+									<option value="teste3">IFSP-Instituto Federal São Paulo, Câmpus Campinas</option>
 
-								<option value="teste4">IFSP-Instituto Federal São Paulo, Câmpus São Miguel</option>
+									<option value="teste4">IFSP-Instituto Federal São Paulo, Câmpus São Miguel</option>
 
-							</select>
+								</select>
 
 							<!-- DropDown Grau -->
-							<label for="Field_Degree"></label>
+								<label for="Field_Degree"></label>
 
-							<select id="Field_Degree_DropDown" name="Degree">
+									<select id="Field_Degree_DropDown" name="Degree">
 
-								<option value="teste1">Selecione o Grau de formação em que leciona</option>
+										<option value="teste1">Selecione o Grau de formação em que leciona</option>
 
-								<option value="teste2">Ensino Fundamental</option>
+										<option value="teste2">Ensino Fundamental</option>
 
-								<option value="teste3">Ensino Médio</option>
+										<option value="teste3">Ensino Médio</option>
 
-								<option value="teste4">Ensino Superior</option>
+										<option value="teste4">Ensino Superior</option>
 
-							</select>
+									</select>
 
 							<!-- Botão Cadastrar -->
-							<p id = "Button_Register" data-hover = "Click Me">
+								<p id = "Button_Register" data-hover = "Click Me">
 
-						<span>
+									<span>
 
-							Cadastrar
+										Cadastrar
 
-						</span>
+									</span>
 					
-			</section>
-		</nav>
+						</section>
+					
+					</nav>
 
-    </header>
-</body>
+    		</header>
+	
+	</body>
 
 </html>
