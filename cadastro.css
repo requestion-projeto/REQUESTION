@@ -1,0 +1,562 @@
+
+        body {
+
+            background: url("https://github.com/katharinefernandes/imagens_requestion/blob/main/background_requestion.png?raw=true") no-repeat;
+            
+            margin: 0;
+
+            font-family: Ebrima;
+
+            font-weight: 500;
+        }
+
+        /* Logo Cadastro */
+
+            #Fields_reg_logo {
+
+                max-width:220px;
+
+                max-height:180px;
+
+                right: 660px;
+
+                margin-left: auto;
+
+                margin-right: auto;
+
+                width:auto;
+
+                height:auto;
+
+                position:absolute;
+
+                top:8%;
+
+                left:41%;
+
+                z-index: 1;
+
+            }
+
+            /* Botão Retornar */
+
+                #Button_Return-img {
+
+                    margin-left: auto;
+
+                    margin-right: auto;
+
+                    width: 45px;
+
+                    height: 45px;
+
+                    position:absolute;
+
+                    top: 5em;
+
+                    left: 10em;
+
+                    z-index: 1;
+
+                }
+
+            /* Retângulo Cadastro */
+
+                #Rectangle {
+
+                    display: block;
+
+                    margin-left: auto;
+
+                    margin-right: auto;
+
+                    width:auto;
+
+                    height:auto;
+
+                    position:absolute;
+
+                    top:4%;
+
+                    left:7.5%;
+                
+                    right:10%;
+
+                    width:1140px;
+
+                    height:600px;
+
+                    background-color:#F6F6F6;
+
+                    border-radius: 85px;
+                
+                    border-width: 0.05px;
+                
+                    border-style: solid;
+            
+                    border-color: #FBB4FF;
+
+                }
+            
+            /* Campos Cadastro Texto*/
+
+                #Fields_Registration_Text{
+
+                    font-size: 18px;
+
+                    opacity: 75%;
+                            
+                    position: absolute;
+                            
+                    top: 8.2em;
+                            
+                    left: 7.5em;
+
+                }
+
+            /* Campo Cadastro Texto Nome*/
+
+                #Field_Name_Text{
+
+                    position: absolute;
+                            
+                }
+
+            /* Campo Cadastro Texto Sobrenome*/
+
+                #Field_Lastname_Text{
+
+                    position: absolute;
+                                
+                    left: 27em;
+
+                }
+            
+            /* Campo Cadastro Texto Email*/
+
+                #Field_Email_Text{
+
+                    position: relative;
+
+                    top: 4.6em;
+
+                }
+            
+            /* Campo Cadastro Texto Senha*/
+
+                #Field_Password_Text{
+
+                    position: absolute;
+
+                    top: 9.2em;
+
+                }
+            
+            /* Campo Cadastro Texto Confirmar Senha */   
+
+                #Field_Confirm_Text{
+
+                    position: relative;
+
+                    top: 6.9em;
+
+                    left: 27em;
+                       
+                }
+
+            /* Campo Cadastro Texto Instituição*/
+
+                #Field_Intitution_Text{
+
+                    position: relative;
+
+                    top: 9.2em;
+
+                }
+
+            /* Campo Cadastro Texto Código de Confirmação*/ 
+
+                #Field_Verificationcode_Text{
+
+                    position: relative;
+
+                    bottom: 2.6em;
+
+                    left: 27em;  
+
+                }
+
+            /* Campo Cadastro Texto Grau*/
+
+                #Field_Degree_Text{
+
+                    position: absolute;
+
+                    top: 14em;
+
+                    left: 27em;
+
+                }
+
+            /* Campo Cadastro Nome*/
+
+                #Field_Name{
+
+                    position: absolute;
+
+                    left: 7em;
+
+                    bottom: 23em;
+
+                    width: 400px;
+
+                    height: 30px;
+
+                    background-color:#FFFFFF;
+
+                    border-radius: 25px;
+                
+                    border-width: 0.05px;
+                
+                    border-style: solid;
+            
+                    border-color: #c0c0c0;
+
+                    outline: none;
+
+                    box-shadow: 1px 2px 2px #acacac;
+
+                    opacity: 75%;
+
+                    font-family: Ebrima;
+
+                    font-size: 16px;
+
+                    letter-spacing: 0.2px;
+
+                    padding-left: 10px;
+
+                }
+
+            /* Campo Cadastro Sobrenome*/
+
+                #Field_Lastname{
+
+                    position: absolute;
+
+                    left: 37em;
+
+                    bottom: 23em;
+
+                    width: 400px;
+
+                    height: 30px;
+
+                    background-color:#FFFFFF;
+
+                    border-radius: 25px;
+                
+                    border-width: 0.05px;
+                
+                    border-style: solid;
+            
+                    border-color: #c0c0c0;
+
+                    outline: none;
+
+                    box-shadow: 1px 2px 2px #acacac;
+
+                    opacity: 75%;
+
+                    font-family: Ebrima;
+
+                    font-size: 16px;
+
+                    letter-spacing: 0.2px;
+
+                    padding-left: 10px;
+
+                }
+
+            /* Campo Cadastro Email*/
+
+                #Field_Email{
+
+                    position: absolute;
+
+                    left: 7em;
+
+                    bottom: 17.8em;
+
+                    width: 400px;
+
+                    height: 30px;
+
+                    background-color:#FFFFFF;
+
+                    border-radius: 25px;
+                
+                    border-width: 0.05px;
+                
+                    border-style: solid;
+                
+                    border-color: #c0c0c0;
+
+                    outline: none;
+
+                    box-shadow: 1px 2px 2px #acacac;
+
+                    opacity: 75%;
+
+                    font-family: Ebrima;
+
+                    font-size: 16px;
+
+                    letter-spacing: 0.2px;
+
+                    padding-left: 10px;
+
+                }
+
+            /* Campo Cadastro Senha*/
+
+                #Field_Password{
+
+                    position: absolute;
+
+                    left: 7em;
+
+                    bottom: 12.6em;
+
+                    width: 400px;
+
+                    height: 30px;
+
+                    background-color:#FFFFFF;
+
+                    border-radius: 25px;
+                
+                    border-width: 0.05px;
+                
+                    border-style: solid;
+            
+                    border-color: #c0c0c0;
+
+                    outline: none;
+
+                    box-shadow: 1px 2px 2px #acacac;
+
+                    opacity: 75%;
+
+                    font-family: Ebrima;
+
+                    font-size: 16px;
+
+                    letter-spacing: 0.2px;
+
+                    padding-left: 10px;
+
+                }
+
+            /* Campo Cadastro Código de Verificação*/
+                #Field_Verificationcode{
+
+                    position: absolute;
+
+                    left: 37em;
+
+                    bottom: 17.8em;
+
+                    width: 400px;
+
+                    height: 30px;
+
+                    background-color:#FFFFFF;
+
+                    border-radius: 25px;
+                
+                    border-width: 0.05px;
+                
+                    border-style: solid;
+                
+                    border-color: #c0c0c0;
+
+                    outline: none;
+
+                    box-shadow: 1px 2px 2px #acacac;
+
+                    opacity: 75%;
+
+                    font-family: Ebrima;
+
+                    font-size: 16px;
+
+                    letter-spacing: 0.2px;
+
+                    padding-left: 10px;
+
+                }
+
+            /* Campo Cadastro Confirmação da Senha */
+
+                #Field_Confirm{
+
+                    position: absolute;
+
+                    left: 37em;
+
+                    bottom: 12.6em;
+
+                    width: 400px;
+
+                    height: 30px;
+
+                    background-color:#FFFFFF;
+
+                    border-radius: 25px;
+                
+                    border-width: 0.05px;
+                
+                    border-style: solid;
+                
+                    border-color: #c0c0c0;
+
+                    outline: none;
+
+                    box-shadow: 1px 2px 2px #acacac;
+
+                    opacity: 75%;
+
+                    font-family: Ebrima;
+
+                    font-size: 16px;
+
+                    letter-spacing: 0.2px;
+
+                    padding-left: 10px;
+
+                }
+
+            /* DropDown Instituição */
+
+                #Field_Institution_DropDown{
+
+                    position: absolute;
+
+                    left: 7em;
+
+                    bottom: 7.2em;
+
+                    width: 408px;
+
+                    height: 34px;
+
+                    background-color:#FFFFFF;
+
+                    border-radius: 25px;
+                
+                    border-width: 0.05px;
+                
+                    border-style: solid;
+                
+                    border-color: #c0c0c0;
+
+                    outline: none;
+
+                    box-shadow: 1px 2px 2px #acacac;
+
+                    opacity: 75%;
+
+                    font-family: Ebrima;
+
+                    font-size: 16px;
+
+                    letter-spacing: 0.2px;
+
+                    padding-left: 10px;
+
+                }
+
+            /* DropDown Grau */
+
+                #Field_Degree_DropDown{
+
+                    position: absolute;
+
+                    left: 37em;
+
+                    bottom: 7.2em;
+
+                    width: 408px;
+
+                    height: 34px;
+
+                    background-color:#FFFFFF;
+
+                    border-radius: 25px;
+                
+                    border-width: 0.05px;
+                
+                    border-style: solid;
+                
+                    border-color: #c0c0c0;
+
+                    outline: none;
+
+                    box-shadow: 1px 2px 2px #acacac;
+
+                    opacity: 75%;
+
+                    font-family: Ebrima;
+
+                    font-size: 16px;
+
+                    letter-spacing: 0.2px;
+
+                    padding-left: 10px;
+                }
+
+            /* Botão Cadastrar */
+
+                #Button_Register {
+
+                    left: 24em;
+
+                    margin-left: auto;
+
+                    margin-right: auto;
+
+                    width:auto;
+
+                    height:auto;
+
+                    position: absolute;
+
+                    bottom: 1em;
+
+                    background-color: #8696E4;
+
+                    padding: 10px 20px; 
+
+                    width: 230px;
+
+                    text-align: center;
+
+                    font-size: 18px;
+
+                    color: #F5F5F5;
+
+                    border-radius: 30px; 
+
+                    cursor: pointer;
+
+                    outline: none;
+
+                }
+            /* Botão Cadastrar - "Efeito" */
+
+                #Button_Register:hover {
+            
+                    box-shadow: 1px 2px 4px #808080;
+            
+                }
