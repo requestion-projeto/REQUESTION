@@ -1,0 +1,78 @@
+/* Barra de Navegação */
+
+      /* Barra toda */
+
+            #Nav_Bar {
+
+                  position: fixed;
+
+                  top: 0;
+
+                  width: 100%;
+
+                  z-index: 1;
+
+            }
+
+      /* Lista de Links */
+
+            #Nav_Bar_Link_List {
+
+                  list-style-type: none;
+
+                  margin: 0;
+
+                  padding: 0; 
+
+                  background-image: linear-gradient(to left, #C8CFF4, #FCCEFF, #FECCDC);
+
+                  height: 5em;
+
+                  border-radius: 0px 0px 50px 50px;
+
+            }
+
+      /* Bloco do link */
+
+            .Nav_Bar_Link_Block {
+
+                  float: right;
+
+            }
+
+      /* Link */
+
+            .Nav_Bar_Link {
+
+                  display: block;
+
+                  color: black; 
+
+                  text-align: center; 
+
+                  text-decoration: none;
+
+                  font-size: 110%;
+
+                  padding: 0.5em;
+
+                  border-radius: 30px;
+
+                  margin-top: 1em;
+
+                  margin-right: 3em;
+
+            }
+
+      /* logo */
+
+            #nav_bar_logo {
+
+                  position: absolute;
+
+                  left: 36px;
+
+                  width: 140px;
+
+                  border-radius: 45%;
+            }
