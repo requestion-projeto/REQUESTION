@@ -1,1 +1,1 @@
-Imagens usadas na tela inicial do website
+Imagens usadas na tela inicial.
