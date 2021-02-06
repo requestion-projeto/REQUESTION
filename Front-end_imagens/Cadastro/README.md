@@ -1,1 +1,1 @@
-Imagens usadas na tela de Cadastro
+Imagens usadas na tela de Cadastro.
