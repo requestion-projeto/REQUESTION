@@ -1,1 +1,1 @@
-Imagens usadas na tela de Login
+Imagens usadas na tela de Login.
