@@ -40,12 +40,24 @@
 					require "Login/Index.html";
 
 					break;
+
+				case "Direitos": 
+
+					require "NavBar/Index.html";
+
+					require "Direitos/Index.html";
+
+					require "Footer/Index.html";
+
+					break;
 				
 				default:
 
-					require "Módulos/NavBar/Index.html";
+					require "NavBar/Index.html";
 
 					require "Home/Index.html";
+
+					require "Footer/Index.html";
 					
 			}
 
