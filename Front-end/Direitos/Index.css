@@ -1,0 +1,131 @@
+
+	/* Toda página */
+
+		body {
+
+			background: #F0F0F0;
+
+			margin: 0;
+
+			font-family: Ebrima;
+
+			font-weight: 500;
+
+		}
+
+	/* Direitos */
+
+		#Copyright {
+
+			margin-top: 8em;
+
+			position: relative;
+
+			
+
+		}
+
+	/* Botão de retornar */
+
+		#return {
+
+			position: absolute;
+
+			left: 6em;
+
+			top: 0.5em;
+
+			width: 55px;
+
+			border-radius: 60%;
+
+			cursor: pointer;
+
+		}
+
+	/* Bloco de texto de Direitos */
+
+		#Copyright_Text_Block {
+
+			margin: 0 auto;
+
+			display: block;
+
+			padding: 0 9em;
+
+		}
+
+	/* Título e texto de Direitos*/
+
+		#Copyright_Text_Block > * {
+
+			text-align: center;
+
+			color: #000;
+
+			opacity: 0.75;
+
+		}
+
+	/* Título do texto de Direitos */
+
+		#Copyright_Text_Title {
+
+			margin: 0 auto;
+
+			display: block;
+
+			width: 10em;
+
+			font-weight: bold;
+
+			font-size: 35px;
+		}
+
+	/* Texto dos Direitos */
+
+		/* parágrafos e subtítulos */
+
+			#Copyright_Text p,h4 {
+
+				margin-left: -1em;
+
+			}
+
+		/* parágrafos  */
+
+			#Copyright_Text p {
+
+				text-indent: 30px;
+
+				text-align: justify;
+
+			}
+
+		/* subtítulos */
+
+			#Copyright_Text h4 {
+
+				font-weight: 300;
+
+			}
+
+		/* links */
+
+			#Copyright_Text a {
+
+				text-decoration: none;
+
+			}
+
+		/* lista */
+
+			#Copyright_Text {
+
+				font-size: 23px;
+
+				text-align: left;
+			
+			}
+
+	/* Fim */
