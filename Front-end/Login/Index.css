@@ -12,16 +12,6 @@
 		    font-weight: 500;
 		}
 
-	/* Retângulo */
-
-		/*
-			section > *, section > * > *  {
-
-				border: solid 1px black;
-
-			}
-		*/
-
 		section	{
 
 			position: relative;
@@ -34,7 +24,7 @@
 
 			width: 65em;
 
-		    height: 35em;
+		    height: 33em;
 
 		    background-color: #F6F6F6;
 
@@ -54,9 +44,9 @@
 
 			left: 4em;
 
-			top: 4em;
+			top: 2em;
 
-			width: 45px;
+			width: 55px;
 
 			border-radius: 50%;
 
