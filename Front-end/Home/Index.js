@@ -40,7 +40,8 @@
 
 					case 1:
 
-						Image.src = "https://github.com/GuiSmith/Requestion_Images/blob/main/Slide_Two.png?raw=true";
+						Image.src =
+						"https://raw.githubusercontent.com/requestion-projeto/REQUESTION-PLATAFORMA/main/Front-end_imagens/Home/Slides/Slide_2.png";
 
 						Image_Status = 2;
 
@@ -48,7 +49,7 @@
 
 					case 2:
 
-						Image.src = "https://github.com/GuiSmith/Requestion_Images/blob/main/Slide_Three.png?raw=true";
+						Image.src = "https://raw.githubusercontent.com/requestion-projeto/REQUESTION-PLATAFORMA/main/Front-end_imagens/Home/Slides/Slide_3.png";
 
 						Image_Status = 3;
 
@@ -56,7 +57,7 @@
 
 					case 3:
 
-						Image.src = "https://github.com/GuiSmith/Requestion_Images/blob/main/Slide_Four.png?raw=true";
+						Image.src = "https://raw.githubusercontent.com/requestion-projeto/REQUESTION-PLATAFORMA/main/Front-end_imagens/Home/Slides/Slide_4.png";
 
 						Image_Status = 4;
 
@@ -64,7 +65,7 @@
 
 					case 4:
 
-						Image.src = "https://github.com/GuiSmith/Requestion_Images/blob/main/Slide_Five.png?raw=true";
+						Image.src = "https://raw.githubusercontent.com/requestion-projeto/REQUESTION-PLATAFORMA/main/Front-end_imagens/Home/Slides/Slide_5.png";
 
 						Image_Status = 5;
 
@@ -72,7 +73,7 @@
 
 					case 5:
 
-						Image.src = "https://github.com/GuiSmith/Requestion_Images/blob/main/Slide_One.png?raw=true";
+						Image.src = "https://raw.githubusercontent.com/requestion-projeto/REQUESTION-PLATAFORMA/main/Front-end_imagens/Home/Slides/Slide_1.png";
 
 						Image_Status = 1;
 
@@ -90,7 +91,7 @@
 
 					case 1:
 
-						Image.src = "https://github.com/GuiSmith/Requestion_Images/blob/main/Slide_Five.png?raw=true";
+						Image.src = "https://raw.githubusercontent.com/requestion-projeto/REQUESTION-PLATAFORMA/main/Front-end_imagens/Home/Slides/Slide_5.png";
 
 						Image_Status = 5;
 
@@ -98,7 +99,7 @@
 
 					case 2:
 
-						Image.src = "https://github.com/GuiSmith/Requestion_Images/blob/main/Slide_One.png?raw=true";
+						Image.src = "https://raw.githubusercontent.com/requestion-projeto/REQUESTION-PLATAFORMA/main/Front-end_imagens/Home/Slides/Slide_1.png";
 
 						Image_Status = 1;
 
@@ -106,7 +107,7 @@
 
 					case 3:
 
-						Image.src = "https://github.com/GuiSmith/Requestion_Images/blob/main/Slide_Two.png?raw=true";
+						Image.src = "https://raw.githubusercontent.com/requestion-projeto/REQUESTION-PLATAFORMA/main/Front-end_imagens/Home/Slides/Slide_2.png";
 
 						Image_Status = 2;
 
@@ -114,7 +115,7 @@
 
 					case 4:
 
-						Image.src = "https://github.com/GuiSmith/Requestion_Images/blob/main/Slide_Three.png?raw=true";
+						Image.src = "https://raw.githubusercontent.com/requestion-projeto/REQUESTION-PLATAFORMA/main/Front-end_imagens/Home/Slides/Slide_3.png";
 
 						Image_Status = 3;
 
@@ -122,7 +123,7 @@
 
 					case 5:
 
-						Image.src = "https://github.com/GuiSmith/Requestion_Images/blob/main/Slide_Four.png?raw=true";
+						Image.src = "https://raw.githubusercontent.com/requestion-projeto/REQUESTION-PLATAFORMA/main/Front-end_imagens/Home/Slides/Slide_4.png";
 
 						Image_Status = 4;
 
