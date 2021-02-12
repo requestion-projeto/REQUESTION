@@ -1,0 +1,183 @@
+
+	/* Página */
+
+		body {
+
+		    background: url("https://github.com/katharinefernandes/imagens_requestion/blob/main/background_requestion.png?raw=true") no-repeat;
+		    
+		    font-family: Ebrima;
+
+		    margin-top: 2em;
+
+		    font-weight: 500;
+		}
+
+	/* Retângulo */
+
+		section	{
+
+			position: relative;
+
+			margin: 0 auto;
+
+			display: block;
+
+			width:65em;
+
+		    height:33em;
+
+		    background-color:#F6F6F6;
+
+		    border: solid 2px #FBB4FF;
+
+		    border-radius: 85px;
+
+		    padding: 0 1.5em;
+
+		}
+
+	/* Botão de retornar */
+
+		#return {
+
+			position: absolute;
+
+			left: 4em;
+
+			top: 2em;
+
+			width: 55px;
+
+			border-radius: 50%;
+
+			cursor: pointer;
+
+		}
+
+	/* Logo */
+
+		#logo {
+
+			margin: 0 auto;
+
+			display: block;
+
+			width: 180px;
+
+			margin-top: 1em;
+
+		}
+
+	/* Form */
+
+		form {
+
+			margin-top: 1em;
+
+		}
+
+	/* Campos */
+
+		p {
+
+			font-size: 16px;
+
+			display: inline-block;
+
+			padding: 0.5em;
+
+			margin: 0 0 0 4em;
+
+		}
+
+	/* Texto dos Campos */
+
+		p span {
+
+			margin-left: 1.3em;
+
+		}
+
+	/* Inputs */
+
+		.field, select {
+
+			outline: none;
+
+			border: solid 1px #c0c0c0;
+
+			border-radius: 25px;
+
+			box-shadow: 1px 2px 2px #acacac;			
+
+			font-size: 16px;
+
+            letter-spacing: 0.2px;
+
+            padding-left: 10px;
+
+            margin-top: 0.5em;
+
+            opacity: 75%;
+
+		}
+
+	/* Inputs de texto */
+
+		.field {
+
+			width: 25em;
+
+            height: 1.8em;
+
+		}
+
+	/* Input de lista */
+
+		select {
+
+			width: 26em;
+
+			height: 2em;
+
+		}
+
+	/* Botão de Cadastrar */
+
+		#submit {
+
+			margin: 1.5em auto;
+
+			display: block;
+
+			background-color: #8696E4;
+			
+			padding: 10px 20px; 
+			
+			width: 14.3em;
+			
+			text-align: center;
+			
+			font-size: 18px;
+			
+			color: #F5F5F5;
+			
+			border-radius: 30px; 
+
+			border: none;
+			
+			cursor: pointer;
+
+		}
+
+	/* Botão de Cadastrar hover */
+
+		#submit:hover {
+
+			box-shadow: 1px 2px 4px #808080;
+
+		}
+
+	/* Fim */
+
+	
