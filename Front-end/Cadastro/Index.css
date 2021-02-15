@@ -68,23 +68,17 @@
 
 		}
 
-	/* Form */
-
-		form {
-
-			margin-top: 1em;
-
-		}
-
 	/* Campos */
 
 		p {
+
+			position: relative;
 
 			font-size: 16px;
 
 			display: inline-block;
 
-			padding: 0.5em;
+			padding: 1em 0.5em 0.5em 0.5em;
 
 			margin: 0 0 0 4em;
 
@@ -146,7 +140,7 @@
 
 		#submit {
 
-			margin: 1.5em auto;
+			margin: 0.8em auto 0.5em auto;
 
 			display: block;
 
@@ -165,6 +159,8 @@
 			border-radius: 30px; 
 
 			border: none;
+
+			outline: none;
 			
 			cursor: pointer;
 
@@ -178,6 +174,42 @@
 
 		}
 
-	/* Fim */
+	/* Menssagens de senha */
 
-	
+		/* Mensagens */
+
+			.messages {
+
+				position: absolute;
+
+				bottom: -1em;
+
+				left: -1px;
+
+				font-size: 13px;
+
+				color: red;
+
+				display: none;
+
+			}
+
+		/* Força */
+
+			#showForce {
+
+				position: absolute;
+
+				right: 1em;
+
+				font-weight: bold;
+
+				opacity: 85%;
+
+				font-size: 15px;
+
+				display: none;
+
+			}
+
+	/* Fim */

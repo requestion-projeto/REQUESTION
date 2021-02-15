@@ -5,7 +5,7 @@
 	
 		<title>
 	
-			Cadastro
+			Cadastro 
 	
 		</title>
 
@@ -49,7 +49,7 @@
 
 							</p>
 
-						<!-- sobrenome -->
+						<!-- Sobrenome -->
 
 							<p>
 								
@@ -92,18 +92,33 @@
 							</p>
 
 						<!-- Senha -->
+							
+								<p>
+									
+									<span>
 
-							<p>
-								
-								<span>
+										Senha: <span id = "showForce" >
+											
+											Força: 
 
-									Senha:
+											<b id = "content" >
+												
 
-								</span> <br>
-								
-								<input class = "field" type = "password" name = "password" maxlength = "50" placeholder = "Insira sua Senha" required >
+											</b>
 
-							</p>
+									</span>
+
+									</span> <br>
+									
+									<input class = "field" type = "password" name = "password" maxlength = "50" placeholder = "Insira sua Senha" onkeyup = "passwordForce()" required >
+
+									<span class = "messages" id = "passwordMessage" >
+
+										*Sua senha precisa de no mínimo 8 caracteres e caracteres especiais
+
+									</span>
+
+								</p>
 
 						<!-- Confirmação de Senha -->
 
@@ -111,11 +126,17 @@
 								
 								<span>
 
-									Confirmação de Senha:
+									Confirmação de Senha: 
 
 								</span> <br>
 								
-								<input class = "field" type = "password" name = "password_C" maxlength = "50" placeholder = "Insira novamente sua Senha" required >
+								<input class = "field" type = "password" name = "password_C" maxlength = "50" placeholder = "Insira novamente sua Senha" onkeyup = "passwordVerification()" required >
+
+								<span class = "messages" id = "Password_C_Message" >
+
+									*As senhas devem ser iguais
+
+								</span>
 
 							</p>
 
@@ -213,11 +234,15 @@
 
 						<!-- Botão de Cadastrar -->
 
-							<input id = "submit" type = "submit" name = "submit" value = "Cadastrar">
+							<input id = "submit" type = "submit" name = "submit" onclick = "return Validate()" value = "Cadastrar" >
 
 					</form>
 
 			</section>
+
+		<!-- JavaScript -->
+
+			<script src="Cadastro/Index.js"></script>
 
 	</body>
 	
