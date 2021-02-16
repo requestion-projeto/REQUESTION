@@ -212,4 +212,44 @@
 
 			}
 
+	/* Visualizar Senha */
+	
+		#viewpassword {
+
+			position: absolute;
+
+			left: 28.7em;
+
+			top: 20.2em;
+
+			width: 46px;
+
+			border-radius: 46%;
+
+			cursor: pointer;
+
+			z-index: 1;
+
+		} 
+
+			#viewpassword-2 {
+
+			position: absolute;
+
+			left: 28.7em;
+
+			top: 20.2em;
+
+			width: 46px;
+
+			border-radius: 46%;
+
+			cursor: pointer;
+
+			z-index: 1;
+
+			display: inline;
+
+		} 
+
 	/* Fim */
