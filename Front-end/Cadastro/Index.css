@@ -24,7 +24,7 @@
 
 			width:65em;
 
-		    height:33em;
+		    height:37em;
 
 		    background-color:#F6F6F6;
 
@@ -80,7 +80,7 @@
 
 			padding: 1em 0.5em 0.5em 0.5em;
 
-			margin: 0 0 0 4em;
+			margin: 0 0 0.5em 4em;
 
 		}
 
@@ -140,7 +140,7 @@
 
 		#submit {
 
-			margin: 0.8em auto 0.5em auto;
+			margin: 1.5em auto 0 auto;
 
 			display: block;
 
@@ -212,44 +212,24 @@
 
 			}
 
-	/* Visualizar Senha */
-	
-		#viewpassword {
+	/* View password */
+
+		.view {
 
 			position: absolute;
 
-			left: 28.7em;
+			right: 0.7em; /* Maior valor -> Mais pra esquerda */
 
-			top: 20.2em;
+			bottom: 0.8em; /* Maior valor -> mais pra cima */
 
-			width: 46px;
-
-			border-radius: 46%;
+			width: 40px;
 
 			cursor: pointer;
 
-			z-index: 1;
+			/*border: solid 1px black;*/ /* deixe como sem comentário para testar o hitbox */
 
-		} 
+			border-radius: 50%;
 
-			#viewpassword-2 {
-
-			position: absolute;
-
-			left: 28.7em;
-
-			top: 20.2em;
-
-			width: 46px;
-
-			border-radius: 46%;
-
-			cursor: pointer;
-
-			z-index: 1;
-
-			display: inline;
-
-		} 
+		}
 
 	/* Fim */

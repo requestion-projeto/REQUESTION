@@ -21,22 +21,15 @@
 
 		<!-- Retângulo -->
 			
-			<section id = "register">
+			<section id = "register" >
 				
 				<!-- Botão de retornar -->
-
+				
 					<img id = "return" src = "https://github.com/requestion-projeto/REQUESTION-PLATAFORMA/blob/main/Front-end_imagens/Cadastro/Return_Arrow.png?raw=true" title = "Retornar" onclick = "history.go(-1)" >
 
 				<!-- Logo -->
 					
 					<img id = "logo" src = "https://github.com/katharinefernandes/imagens_requestion/blob/main/Logo_Colorido.png?raw=true" title = "Requestion">
-
-				<!-- Visualizar Senha -->
-
-					<img id = "viewpassword-2" src = "https://github.com/requestion-projeto/REQUESTION-PLATAFORMA/blob/main/Front-end_imagens/Esqueceu_Senha/eye_white.png?raw=true" title = "Parar de Visualizar Senha" onclick = "View_Password()" >
-
-					<img id = "viewpassword" src = "https://github.com/requestion-projeto/REQUESTION-PLATAFORMA/blob/main/Front-end_imagens/Esqueceu_Senha/eye_black.png?raw=true" title = "Visualizar Senha" onclick = "View_Password()" >
-
 
 				<!-- Form -->
 
@@ -52,7 +45,13 @@
 									
 								</span> <br>
 
-								<input class = "field" type = "text" name = "Name" maxlength = "25" placeholder = "Insira seu nome" required autofocus >
+								<input class = "field" type = "text" name = "name" maxlength = "25" placeholder = "Insira seu nome" onkeypress = "" required autofocus >
+
+								<span class = "messages" >
+
+									*Sua senha precisa de no mínimo 8 caracteres e caracteres especiais
+
+								</span>
 
 							</p>
 
@@ -80,7 +79,7 @@
 
 								</span> <br>
 								
-								<input class = "field" type = "text" name = "Email" maxlength = "50" placeholder = "Insira seu Email" required >
+								<input class = "field" type = "Email" name = "Email" maxlength = "50" placeholder = "Insira seu Email" required >
 
 							</p>
 
@@ -111,6 +110,7 @@
 											<b id = "content" >
 												
 
+
 											</b>
 
 									</span>
@@ -119,12 +119,11 @@
 									
 									<input class = "field" type = "password" name = "password" maxlength = "50" placeholder = "Insira sua Senha" onkeyup = "passwordForce()" required >
 
-
-									
+									<img class = "view" id = "view" onclick = "viewPassword('view','password')" src = "https://github.com/requestion-projeto/REQUESTION-PLATAFORMA/blob/main/Front-end_imagens/Esqueceu_Senha/eye_white.png?raw=true">
 
 									<span class = "messages" id = "passwordMessage" >
 
-										*Sua senha precisa de no mínimo 8 caracteres e caracteres especiais
+										*Sua senha precisa de no mínimo 8 letras e caracteres especiais
 
 									</span>
 
@@ -141,6 +140,8 @@
 								</span> <br>
 								
 								<input class = "field" type = "password" name = "password_C" maxlength = "50" placeholder = "Insira novamente sua Senha" onkeyup = "passwordVerification()" required >
+
+								<img class = "view" id = "view_C" onclick = "viewPassword('view_C','password_C')" src = "https://github.com/requestion-projeto/REQUESTION-PLATAFORMA/blob/main/Front-end_imagens/Esqueceu_Senha/eye_white.png?raw=true">
 
 								<span class = "messages" id = "Password_C_Message" >
 
