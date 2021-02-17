@@ -53,7 +53,7 @@
 			cursor: pointer;
 
 		}
-
+		
 	/* Logo */
 
 		#logo {
@@ -71,6 +71,8 @@
 	/* Campos */
 
 		p {
+
+			position: relative;
 
 			text-align: left;
 
@@ -180,13 +182,27 @@
 
 		}
 
-		
-
 	/* Botões:hover; */
 
 		.button:hover {
 
 			box-shadow: 1px 2px 4px #808080;
+
+		}
+
+	/* Visualização da Senha */
+
+		#view {
+
+			position: absolute;
+
+			right: 1em;
+
+			bottom: 1em;
+
+			width: 35px;
+
+			cursor: pointer;
 
 		}
 
