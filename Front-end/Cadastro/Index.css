@@ -218,11 +218,11 @@
 
 			position: absolute;
 
-			right: 0.7em; /* Maior valor -> Mais pra esquerda */
+			right: 1em; 
 
-			bottom: 0.8em; /* Maior valor -> mais pra cima */
+			bottom: 0.9em; 
 
-			width: 40px;
+			width: 32px;
 
 			cursor: pointer;
 
