@@ -50,6 +50,16 @@
 					require "Footer/Index.html";
 
 					break;
+
+				case "FAQ":
+
+					require "NavBar/Index.html";
+
+					require "FAQ/Index.html";
+
+					require "Footer/Index.html";
+
+				break;
 				
 				default:
 
@@ -60,7 +70,6 @@
 					require "Footer/Index.html";
 					
 			}
-
 		
 		?>
 
