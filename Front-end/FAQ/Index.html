@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+	
+		<title>
+	
+			Perguntas Frequentes
+	
+		</title>
+
+		<meta charset = "utf-8">
+
+		<link rel = "stylesheet" type = "text/css" href = "FAQ/Index.css">
+
+	</head>
+
+	<body>
+
+		<!-- Faq -->
+		
+			<section id = "Faq" >
+
+			<!-- Ícone Faq -->
+
+				<img id = "icone" src="https://github.com/requestion-projeto/REQUESTION-PLATAFORMA/blob/main/Front-end_imagens/FAQ/faq%20(1).png?raw=true" title = "FAQ">
+
+			<!-- Bloco de texto de FAQ -->
+					
+				<div id = "Faq_Text_Block" >
+
+				<!-- Título do texto FAQ -->
+						
+					<h2 id = "Faq_Text_Title" >
+							
+						PERGUNTAS FREQUENTES <br> <br>
+							
+					</h2>
+
+				</div>
+				
+			<!-- Perguntas -->
+			
+				<div id = "fields_faq">
+
+					<!-- Divisão 1 - System -->
+			
+						<div class = "Split">
+
+							<p id = "System" >
+							
+								Funcionalidades do Sistema
+
+							</p>
+
+						</div>
+
+						<!-- Botões - Perguntas - System -->
+
+							<div class = "Faq_button">
+
+								<button onclick = "View_dropdown_1()" class = "button">
+
+									<a> 
+
+										Como criar uma questão?
+
+									</a>
+
+								</button> 
+
+									<div id="DropDown_1" class="dropdown-content">
+
+										<a>
+											
+											Na página inicial, clique no botão de "Criar Questão". Você será direcionado à uma página, nela, desenvolva-a e clique em "Salvar Questão", a questão estatrá salva em "Minhas Questões". Você também pode desenvolver questões quando estiver desenvolvendo uma prova, se desejar.
+										
+										</a>
+
+									</div>
+
+								<button onclick = "View_dropdown_2()" class = "button">
+
+									<a>
+
+										Como criar uma prova?
+
+									</a>
+
+									</button> 
+
+										<div id = "DropDown_2" class = "dropdown-content">
+
+										    <a>
+										    	
+										    	Na barra de navegação, à esquerda, clique no ícone de "Criar Prova". Você será direcionado à uma página, nela, desenvolva-a e clique em "Salvar Prova", a mesma estará salva em "Minhas Provas".
+										    
+										    </a> 
+
+										 </div>
+
+								<button onclick = "View_dropdown_3()" class = "button">
+
+									<a>
+
+										Como recuperar uma questão/prova excluída?
+
+									</a>
+
+									</button> 
+
+										<div id = "DropDown_3" class = "dropdown-content">
+
+										    <a>
+										    	
+										    	Todas questões e provas excluídas vão para a lixeira de questões e  provas, respectivamente. Na barra de navegação, à esquerda, clique no ícone de "Minhas Criações". Clique na lixeira do item em especifico encontre seu arquivo excluído e depois clique em "Restaurar".
+
+										    </a> 
+
+										</div>
+
+								<button onclick="View_dropdown_4()" class = "button">
+
+									<a>
+
+										Como usar questões públicas?
+
+									</a>
+
+									</button>
+
+										<div id = "DropDown_4" class = "dropdown-content">
+
+											<a>
+
+												Questões públicas são questões criadas por professores que escolheram deixá-las acessível à todos. Você pode usá-las enquanto desenvolve uma prova ao clicar em "Questões Públicas", você verá as questões públicas recentemente usadas por você, além de poder pesquisar outras questões públicas.
+
+											</a> 
+
+										</div> 
+
+									<button onclick = "View_dropdown_5()" class = "button">
+
+										<a>
+
+											O que é "privacidade de questões"?
+
+										</a>
+
+										</button>
+
+											<div id = "DropDown_5" class = "dropdown-content">
+
+												<a>
+													
+													A privacidade de uma questão é o que determina se a mesma pode ser acesssada por todos os usuários (pública), ou se pode ser acessada somente por seu criador (privada).
+
+												</a> 
+
+											</div> 
+
+					<!-- Divisão 2 - Conta -->
+							
+						<div class = "Split">
+
+							<p>
+							
+								Gerenciar Minha conta
+
+							</p>
+
+						</div>
+
+							<!-- Botões - Perguntas - Conta -->
+
+									<button onclick = "View_dropdown_6()" class = "button">
+
+										<a>
+
+											Como recuperar minha senha?
+
+										</a>
+									
+									</button> 
+
+										<div id = "DropDown_6" class = "dropdown-content">
+
+											<a>
+
+												Você pode redefinir sua senha na tela de login ao clicar em "Esqueci minha senha", você será encaminhado para uma tela de redefinição de senha. Será solicitado seu e´mail cadastrado, onde enviaremos um PIN para que você possa redefinir sua senha. Caso tenha problemas na recepção de e´mails, você pode entrar em contato com nossa equipe: contato@requestion.com.br
+
+											</a> 
+
+										</div> 
+
+					<!-- Divisão 3 - Fale Conosco -->
+
+							<div class = "Split">
+
+								<p>
+							
+									Fale Conosco
+
+								</p>
+
+							</div>
+
+							<!-- Botões - Perguntas - Fale Conosco -->
+
+									<button onclick = "View_dropdown_7()"class = "button">
+
+										<a>
+
+											Não encontrei minha dúvida?
+
+										</a>
+									
+									</button> 
+
+										<div id = "DropDown_7" class = "dropdown-content">
+
+											<a>
+
+												Neste caso, indicamos que nos envie um e-mail relatando qual a dúvida precisa ser esclarecida para que possamos ajudá-lo. Entre em contato em: contato@requestion.com.br
+
+											</a> 
+
+										</div> 
+
+							</div>
+			
+			</section>	
+
+		<script src = "FAQ/Index.js" ></script>
+
+	</body>
+
+</html>
